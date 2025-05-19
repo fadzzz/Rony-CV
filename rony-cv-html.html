@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rony Zabaneh - CV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f0f2f5;
+            color: #2d3748;
+            line-height: 1.4;
+        }
+        
+        .cv-container {
+            max-width: 830px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            background-color: #0a3d62;
+            color: white;
+            padding: 30px;
+            position: relative;
+        }
+        
+        .name {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        
+        .title {
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #74b9ff;
+            margin-bottom: 15px;
+        }
+        
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 13px;
+        }
+        
+        .contact-item {
+            margin-right: 20px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .content {
+            padding: 25px 30px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 20px;
+        }
+        
+        .left-column {
+            border-right: 1px solid #e2e8f0;
+            padding-right: 20px;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: #0a3d62;
+            position: relative;
+            padding-bottom: 5px;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 30px;
+            height: 3px;
+            background-color: #74b9ff;
+        }
+        
+        .skills-list {
+            list-style-type: none;
+        }
+        
+        .skills-list li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 15px;
+            font-size: 13px;
+        }
+        
+        .skills-list li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #74b9ff;
+            font-weight: bold;
+        }
+        
+        .tech-item {
+            background-color: #edf2f7;
+            padding: 3px 8px;
+            margin: 3px;
+            border-radius: 3px;
+            font-size: 12px;
+            display: inline-block;
+        }
+        
+        .job {
+            margin-bottom: 18px;
+        }
+        
+        .job-title {
+            font-weight: 600;
+            font-size: 15px;
+            color: #2d3748;
+        }
+        
+        .job-company {
+            font-weight: 600;
+            font-size: 14px;
+            color: #0a3d62;
+            margin-bottom: 3px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .job-date {
+            color: #718096;
+            font-weight: normal;
+            font-size: 13px;
+        }
+        
+        .job-desc {
+            font-size: 13px;
+            line-height: 1.4;
+        }
+        
+        .job-highlights {
+            margin-top: 8px;
+        }
+        
+        .job-highlights li {
+            font-size: 13px;
+            margin-bottom: 5px;
+            list-style-type: none;
+            position: relative;
+            padding-left: 15px;
+        }
+        
+        .job-highlights li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #74b9ff;
+            font-weight: bold;
+        }
+        
+        .education-item {
+            margin-bottom: 10px;
+        }
+        
+        .education-title {
+            font-weight: 600;
+            font-size: 14px;
+        }
+        
+        .education-details {
+            font-size: 13px;
+            color: #4a5568;
+        }
+        
+        .accent-text {
+            color: #0a3d62;
+            font-weight: 600;
+        }
+        
+        .highlight-box {
+            background-color: #e6f7ff;
+            border-left: 3px solid #74b9ff;
+            padding: 10px;
+            margin-top: 15px;
+            font-size: 13px;
+        }
+        
+        .highlight-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #0a3d62;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <div class="name">RONY ZABANEH</div>
+            <div class="title">Financial Technology & Analytics Professional</div>
+            <div class="contact">
+                <div class="contact-item">514-742-1984</div>
+                <div class="contact-item">rony.zabaneh@bmo.com</div>
+                <div class="contact-item">St-Jerome, Quebec, J7Y 0B9</div>
+                <div class="contact-item">www.linkedin.com/in/rony-zabaneh</div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="left-column">
+                <div class="section">
+                    <div class="section-title">Core Strengths</div>
+                    <ul class="skills-list">
+                        <li>Data Analysis & Visualization</li>
+                        <li>Financial Investigations</li>
+                        <li>Critical Problem Solving</li>
+                        <li>Process Automation</li>
+                        <li>Strategic Decision Making</li>
+                        <li>Fintech Implementation</li>
+                        <li>Fast Learning & Adaptation</li>
+                    </ul>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">Technical Skills</div>
+                    <div>
+                        <div class="tech-item">SQL</div>
+                        <div class="tech-item">R</div>
+                        <div class="tech-item">Tableau</div>
+                        <div class="tech-item">Advanced Excel</div>
+                        <div class="tech-item">VBA</div>
+                        <div class="tech-item">Data Modeling</div>
+                        <div class="tech-item">S4 Hanna</div>
+                        <div class="tech-item">ServiceNow</div>
+                        <div class="tech-item">IMATCH</div>
+                        <div class="tech-item">ITRACS</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">Education</div>
+                    <div class="education-item">
+                        <div class="education-title">Corporate Finance and Valuation Methods</div>
+                        <div class="education-details">New York Institute of Finance, 2024</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-title">Google Data Analytics Professional Certificate</div>
+                        <div class="education-details">Coursera, 2022</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-title">Bachelor of Business Administration</div>
+                        <div class="education-details">Beirut Arab University, 2007</div>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">Languages</div>
+                    <div style="font-size: 13px;">
+                        English (Fluent)<br>
+                        French (Fluent)<br>
+                        Arabic (Native)
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="section-title">Recent Achievements</div>
+                    <div class="highlight-box">
+                        <div class="highlight-title">Strategic Leadership</div>
+                        Developed and presented performance improvement strategies to 100+ executives, resulting in organization-wide adoption
+                    </div>
+                    <div class="highlight-box">
+                        <div class="highlight-title">Mentorship Program</div>
+                        Selected participant and volunteer moderator for corporate book club, demonstrating leadership capabilities
+                    </div>
+                </div>
+            </div>
+            
+            <div class="right-column">
+                <div class="section">
+                    <div class="section-title">Professional Profile</div>
+                    <p style="font-size: 13px;">Results-driven Financial Technology Professional with 12+ years of experience in banking operations, data analytics, and financial management. Leverages analytical skills to drive process improvements and enhance decision-making. Demonstrates exceptional critical thinking in complex financial investigations and quickly adapts to new technologies to implement innovative solutions.</p>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">Professional Experience</div>
+                    
+                    <div class="job">
+                        <div class="job-company">
+                            BMO Financial Group
+                            <span class="job-date">2020 - Present</span>
+                        </div>
+                        <div class="job-title">Service Specialist - Wire Transfer Analytics & Investigations</div>
+                        <ul class="job-highlights">
+                            <li>Conduct complex data analysis on wire transfers, utilizing SQL to resolve high-value ($25MM+) transaction discrepancies</li>
+                            <li>Implemented automated reporting system reducing investigation time by 30% through data-driven insights</li>
+                            <li>Developed fraud detection methodology resulting in 25% faster identification of suspicious transactions</li>
+                            <li>Engineered Tableau dashboards tracking investigation metrics, providing leadership with actionable insights</li>
+                            <li>Led process improvement initiative streamlining workflows, increasing departmental productivity by 15%</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="job">
+                        <div class="job-company">
+                            BMO Financial Group
+                            <span class="job-date">2018 - 2020</span>
+                        </div>
+                        <div class="job-title">Senior Service Representative - IC Reconciliation, T&O Risk</div>
+                        <ul class="job-highlights">
+                            <li>Applied critical financial analysis to audit and reconcile 40+ GL accounts ($10MM to $1B+)</li>
+                            <li>Designed analytical models identifying reconciliation discrepancies, reducing resolution time by 35%</li>
+                            <li>Led automation projects through all phases: requirements, testing, implementation, and knowledge transfer</li>
+                            <li>Utilized R programming to create analytical reports providing data-driven insights for strategic decisions</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="job">
+                        <div class="job-company">
+                            BMO Financial Group
+                            <span class="job-date">2015 - 2018</span>
+                        </div>
+                        <div class="job-title">Service Representative - IC Reconciliations</div>
+                        <ul class="job-highlights">
+                            <li>Conducted systematic data analysis to resolve complex reconciliation discrepancies in non-routine situations</li>
+                            <li>Optimized transaction processing through critical workflow evaluation, increasing productivity by 18%</li>
+                            <li>Designed automated Excel solutions utilizing advanced formulas to streamline reconciliation processes</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="job">
+                        <div class="job-company">
+                            Spartan Chemical Co
+                            <span class="job-date">2007 - 2014</span>
+                        </div>
+                        <div class="job-title">Finance & Accounting Analyst</div>
+                        <ul class="job-highlights">
+                            <li>Developed financial analysis frameworks for tracking company performance metrics</li>
+                            <li>Designed automated systems for AP/AR management, reducing processing time by 25%</li>
+                            <li>Created analytical dashboards visualizing financial data for executive decision-making</li>
+                            <li>Revolutionized payroll processing for 400+ employees, increasing accuracy and reducing processing time by 30%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
